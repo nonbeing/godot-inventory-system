@@ -12,9 +12,10 @@ func _ready():
 func insert_item(item):
 	var item_pos = item.rect_global_position + item.rect_size / 2
 	var slot = get_slot_under_pos(item_pos)
+	
 	if slot == null:
 		return false
-		
+	print("slot name:" + slot.name)
 	var item_slot = ItemDB.get_item(item.get_meta("id"))["slot"]
 	if item_slot != slot.name:
 		return false
@@ -40,6 +41,7 @@ func grab_item(pos):
 		
 func get_slot_under_pos(pos):
 	return get_thing_under_pos(slots, pos)
+	
 	
 func get_item_under_pos(pos):
 	return get_thing_under_pos(items.values(), pos)

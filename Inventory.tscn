@@ -26,19 +26,19 @@ margin_right = 335.0
 margin_bottom = 219.0
 script = ExtResource( 2 )
 
-[node name="Head" type="Panel" parent="EquipmentSlots"]
+[node name="HEAD" type="Panel" parent="EquipmentSlots"]
 margin_left = 124.4
 margin_top = 14.0
 margin_right = 192.4
 margin_bottom = 62.0
 
-[node name="Chest" type="Panel" parent="EquipmentSlots"]
+[node name="CHEST" type="Panel" parent="EquipmentSlots"]
 margin_left = 112.0
 margin_top = 86.0
 margin_right = 202.0
 margin_bottom = 209.0
 
-[node name="Legs" type="Panel" parent="EquipmentSlots"]
+[node name="LEGS" type="Panel" parent="EquipmentSlots"]
 margin_left = 112.0
 margin_top = 229.15
 margin_right = 202.0
@@ -47,7 +47,7 @@ __meta__ = {
 "_edit_group_": true
 }
 
-[node name="Main_Hand" type="Panel" parent="EquipmentSlots"]
+[node name="MAIN_HAND" type="Panel" parent="EquipmentSlots"]
 margin_left = 14.0
 margin_top = 96.0
 margin_right = 94.0
